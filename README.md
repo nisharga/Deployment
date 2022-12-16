@@ -1,26 +1,24 @@
 <h2>Backend Deploy on Render .om Site </h2>
 
 First go to render.com (Sign up+ Email Verify + Login)<br/>
-Web Service >> Github connect 
+Web Service >> Github connect <br/> <br/>
 
+After Login go to Web Services >> New Web Service <br/>
+Search the repo name from github. And Click Connect<br/>
 
-After Login go to Web Services >> New Web Service
-Search the repo name from github. And Click Connect
+  <code>Name: Give A Name (Github same repo name would better)</code></br>
+  <code>Region: (default)</code></br>
+  <code>Branch: (default)</code></br>
+  <code>Root Directory: (default)</code></br>
+  <code>Environment: Node</code></br>
+  <code>Build Command: (default)</code></br>
+  <code>Start Command: node index.js</code></br>
 
-  Name: Give A Name (Github same repo name would better)
-  Region: (default)
-  Branch: (default)
-  Root Directory: (default)
-  Environment: Node
-  Build Command: (default)
-  Start Command: node index.js
+  (My file name is index.js, if you have other name try out yourself)</br>
 
-  (My file name is index.js, if you have other name try out yourself)
+Then Advanced: Add <code>Environment Variables</code></br>
 
-Then Advanced: Add Environment Variables
-
-Finally, Click on "Create Web Service" it will take upto 2 minutes.
-After successfully deploy you get your server link.
+Finally, Click on "Create Web Service" it will take upto 2 minutes.After successfully deploy you get your server link.</br>
 
 Every time change automatic it will update via github. just you need to update github code.
 Code Change: git add . git commit -m "commit" git push
