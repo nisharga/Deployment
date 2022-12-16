@@ -31,43 +31,39 @@ wait 2 minutes and then see result on ui.
 
 <h2>FrontEnd Deploy on Netlify</h2>
 
-(Don't Forget to Replace New Code: Open frontend code via VSCode. Then Edit >> Find in Files or 
-CTRL + SHIFT + H . One click replace all code
-after that just give one command npm run build and you get build folder)
+(Don't Forget to Replace New Code on frontend code: <code> Open frontend code via VSCode<code> . Then <code> Edit >> Find in Files <code> or 
+<code>CTRL + SHIFT + H </code>. One click replace all code.</br>
+  
+Route Related Issue on frontend <code>_redirects</code> file peast on public folder. </br>
+(you will find the file in this git repo)</br>
+after that just give one command <code>npm run build</code> and you get build folder)</br>
 
+after that go https://app.netlify.com/ (Sign up + Email Verify + Login)</br>
 
-
-
-(Sign up + Email Verify + Login)
-
-https://app.netlify.com/ 
-
-Add New Site > Deploy Manually
+<code>Add New Site > Deploy Manually</code> </br>
 
 DRAG and DROP your build folder. DONE!!!
 
 
-Route Related Issue on frontend _redirects file peast on public folder.(you will find the file in this git repo)
-
 <hr/>
+
+
 
 <h2>FrontEnd Code Deploy on vercel</h2>
 
+https://vercel.com/(Sign up+ Email Verify + Login)</br>
 
-https://vercel.com/dashboard (Sign up+ Email Verify + Login)
+(Make sure already vercel install on PC. If not then Don't forget to <code>npm i -g vercel</code> command to vercel setup your PC, lifetime only once)</br></br>
 
-(Make sure already vercel install on PC. If not then Don't forget to npm i -g vercel command to vercel setup your PC)
+0.in npm comand <code>vercel</code> (then login)</br>
+<code>1.Set up and deploy: Y</code></br>
+<code>2.Select your vercel account email.</code></br>
+<code>3.Link to existing project: N</code></br>
+<code>4.Whats your project name: (Enter)</code></br>
+<code>5.In which directory is your code located: ./ (Enter)</code></br>
+<code>6.Want to modify these settings - N</code></br>
 
-0.in npm comand vercel (then login)
-1.Set up and deploy: Y
-2.Select your vercel account email.
-3.Link to existing project: N
-4.Whats your project name: (Enter)
-5.In which directory is your code located: ./ (Enter)
-6.Want to modify these settings - N
-
-
-Everytime changing just command vercel
+Everytime changing just command <code>vercel</code>
 
 
 
