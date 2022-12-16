@@ -1,4 +1,4 @@
-<h2>Backend Deploy on Render .om Site </h2>
+<h2>Backend Deploy on Render .com Site </h2>
 
 First go to render.com (Sign up+ Email Verify + Login)<br/>
 Web Service >> Github connect <br/> <br/>
@@ -20,8 +20,11 @@ Then Advanced: Add <code>Environment Variables</code></br>
 
 Finally, Click on "Create Web Service" it will take upto 2 minutes.After successfully deploy you get your server link.</br>
 
-Every time change automatic it will update via github. just you need to update github code.
-Code Change: git add . git commit -m "commit" git push
+Every time change automatic it will update via github. just you need to update github code.</br>
+<code>git add . </code></br>
+<code>git commit -m "commit" </code></br>
+<code>git push</code></br>
+
 wait 2 minutes and then see result on ui.
 
 <hr/>
