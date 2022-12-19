@@ -65,7 +65,28 @@ https://vercel.com/dashboard (Sign up+ Email Verify + Login)
 
 Everytime changing just command vercel
 
+======================================================================================
 
+BackEnd Code Deploy on Railway.app (Sign up+ Email Verify + Login)
+New Project >> github connect 
+
+https://railway.app/dashboard
+
+New Project >> Deploy from GitHub repo 
+(All Repo show here from github)
+
+
+
+1. Select the server side code repo,
+2. Add Variables (Here you add your Environment Variables)
+3. Click Deployments and wait until it finished
+4. When Success go Setting >> Domains >> Generate Domain
+5. Open domain in the new tab, wait some momont, and you get your backend live
+
+
+Every time change automatic it will update via github. just you need to update github code.
+Code Change: git add . git commit -m "commit" git push
+wait 2 minutes and then see result on ui.
 
 
 
