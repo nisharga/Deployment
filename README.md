@@ -37,7 +37,9 @@ wait 2 minutes and then see result on ui.
 
 <hr/>
 
-<h2>BackEnd Code Deploy on Railway.app (Sign up+ Email Verify + Login)</h2> 
+<h2>BackEnd Code Deploy on Railway.app </h2> 
+(Sign up+ Email Verify + Login)
+
 New Project >> github connect <br/>
 
 https://railway.app/dashboard
@@ -47,11 +49,11 @@ New Project >> Deploy from GitHub repo <br/>
 
 
 
-1. Select the server side code repo, <br/>
-2. Add Variables (Here you add your Environment Variables) <br/>
-3. Click Deployments and wait until it finished <br/>
-4. When Success go Setting >> Domains >> Generate Domain <br/>
-5. Open domain in the new tab, wait some momont, and you get your backend live <br/>
+1.<code> Select the server side code repo,</code> <br/>
+2.<code> Add Variables (Here you add your Environment Variables)</code> <br/>
+3.<code> Click Deployments and wait until it finished </code> <br/>
+4.<code> When Success go Setting >> Domains >> Generate Domain </code> <br/>
+5.<code> Open domain in the new tab, wait some momont, and you get your backend live </code> <br/>
 
 
 Every time change automatic it will update via github. just you need to update github code. <br/>
