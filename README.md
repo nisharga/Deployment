@@ -1,3 +1,9 @@
+<h2>Video Tutorial</h2>
+
+https://www.loom.com/share/bcee9f6ddd4245c6a4740c969f305d84
+
+<hr/>
+
 <h2>Backend Deploy on Render .com Site </h2>
 
 First go to render.com (Sign up+ Email Verify + Login)<br/>
