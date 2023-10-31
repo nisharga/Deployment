@@ -65,3 +65,50 @@ New Project >> Deploy from GitHub repo <br/>
 Every time change automatic it will update via github. just you need to update github code. <br/>
 Code Change: git add . git commit -m "commit" git push <br/>
 wait 2 minutes and then see result on ui. <br/>
+
+
+### Backend Next Level Backend Host On Vercel
+#### Step 0: create a vercel.json file in root
+#### Step 1: Copy this code and peast on vercel.json
+
+```bash
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/server.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "src/server.ts"
+    }
+  ]
+}
+```
+
+Inside Src declire the path. My server.ts file located inside src thats why i write src/server.ts also in dest
+
+#### Step 2: Login Vercel with CMD
+```bash
+vercel login
+```
+#### Step 3: After Login Vercel Then Type
+```bash
+vercel
+```
+#### Step 4: Answer these questions
+Set up and deploy: Y
+
+Which scope do you want to deploy to?: Gmail
+
+Link to existing project? [y/N] n
+
+What’s your project’s name? (Type Name which will your URL)
+
+In which directory is your code located? ./ Enter
+
+
+#### Step 5: After Getting a Link Check a get route. If face issue login vercel with browser go to that project and see logs. (GlobalErrorHandler Common problem for hosting)
